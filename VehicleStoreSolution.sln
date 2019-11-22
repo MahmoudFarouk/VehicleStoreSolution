@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleStoreAPI", "VehicleStoreAPI\VehicleStoreAPI.csproj", "{7D93342D-AA04-4F9D-B001-2D6A7EF62A15}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VehicleStoreApp", "VehicleStoreApp\", "{0E5FA2FF-DC34-48F9-A676-6CEF8C0E62EC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_21690"
+		Debug.AspNetCompiler.PhysicalPath = "VehicleStoreApp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21690\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_21690"
+		Release.AspNetCompiler.PhysicalPath = "VehicleStoreApp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21690\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21690"
+		SlnRelativePath = "VehicleStoreApp\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1D5600C2-DF3B-442C-8AAE-6C25B55D3272}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D93342D-AA04-4F9D-B001-2D6A7EF62A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D93342D-AA04-4F9D-B001-2D6A7EF62A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D93342D-AA04-4F9D-B001-2D6A7EF62A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D93342D-AA04-4F9D-B001-2D6A7EF62A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5FA2FF-DC34-48F9-A676-6CEF8C0E62EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5FA2FF-DC34-48F9-A676-6CEF8C0E62EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5FA2FF-DC34-48F9-A676-6CEF8C0E62EC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5FA2FF-DC34-48F9-A676-6CEF8C0E62EC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1D5600C2-DF3B-442C-8AAE-6C25B55D3272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5600C2-DF3B-442C-8AAE-6C25B55D3272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5600C2-DF3B-442C-8AAE-6C25B55D3272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5600C2-DF3B-442C-8AAE-6C25B55D3272}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5A60CCE-2725-4DF0-B843-52A75A068BB3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost:1951",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:1951",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "VehicleStoreAPI": {
+      "commandName": "IISExpress"
+    }
+  }
+}

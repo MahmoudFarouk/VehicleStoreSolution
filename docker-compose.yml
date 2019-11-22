@@ -1,0 +1,30 @@
+version: '3.4'
+
+services:
+  vehiclestoreapp:
+    image: vehiclestoreapp
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+     - "80:80"
+    depends_on:
+      - vehiclestoreapi
+
+  vehiclestoreapi:
+    image: ${DOCKER_REGISTRY-}vehiclestoreapi
+    build:
+      context: .
+      dockerfile: VehicleStoreAPI/Dockerfile
+    ports:
+     - "1951:80"
+    depends_on:
+      - db
+
+  db:
+      image: "mcr.microsoft.com/mssql/server"
+      ports:
+       - "1953:1433"
+      environment:
+          SA_PASSWORD: "P@ssw0rd"
+          ACCEPT_EULA: "Y"
